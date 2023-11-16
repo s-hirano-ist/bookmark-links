@@ -1,0 +1,22 @@
+{
+  "name": "bookmark-links",
+  "version": "1.0.0",
+  "description": "bookmark links",
+  "author": "Soraki Hirano",
+  "packageManager": "pnpm@8.10.2",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "fmt": "prettier --check './src/**/*.{js,ts,tsx}'",
+    "fmt:fix": "prettier --write './src/**/*.{js,ts,tsx}'"
+  },
+  "dependencies": {
+    "@fast-csv/format": "^4.3.5",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  }
+}
