@@ -2,7 +2,7 @@ import { generateUrlFile, importUrlFile } from "./common/util";
 import { JSDOM } from "jsdom";
 
 const IMPORT_FILE_NAME = "./original/bookmarks_latest.html";
-const OUTPUT_DIR = "./output/";
+const OUTPUT_DIR = "./bookmarks/";
 
 (async () => {
   console.log("Converting html bookmark links to .url format files");
