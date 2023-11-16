@@ -9,5 +9,5 @@ pnpm i
 ## How to use?
 
 ```bash
-pnpm run start
+sh exec.sh
 ```
