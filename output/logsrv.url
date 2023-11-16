@@ -1,0 +1,2 @@
+[InternetShortcut]
+URL=http://10.20.20.20:5601/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(),filters:!(),index:'395add70-c0a0-11ed-8f5c-cfc11f472924',interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))

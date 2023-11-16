@@ -22,8 +22,6 @@ const OUTPUT_DIR = "./output/";
     }
 
     if (!href) console.error(`DOM error on ${title}`);
-
-    console.log(title, href);
     await generateUrlFile(OUTPUT_DIR, `${sanitizedTitle}.url`, href ?? "");
   }
 })();
