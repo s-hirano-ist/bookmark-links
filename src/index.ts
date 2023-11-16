@@ -14,7 +14,7 @@ const OUTPUT_DIR = "./bookmarks/";
     const title = aTagList.item(i)?.textContent;
     const href = aTagList.item(i)?.getAttribute("href");
 
-    var marks = ["\\", "/", ":", "*", "?", "a", "<", ">", "|"];
+    var marks = ["\\", "/", ":", "*", "?", "<", ">", "|", " ", "　"];
 
     let sanitizedTitle = title ?? "";
     for (let i = 0; i < marks.length; i++) {
