@@ -11,12 +11,13 @@
     "fmt:fix": "prettier --write './src/**/*.{js,ts,tsx}'"
   },
   "dependencies": {
-    "@fast-csv/format": "^4.3.5",
-    "commander": "^11.0.0"
+    "jsdom": "^22.1.0"
   },
   "devDependencies": {
+    "@types/jsdom": "^21.1.5",
+    "@types/node": "^20.9.0",
     "prettier": "^3.0.3",
-    "typescript": "^5.2.2",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
