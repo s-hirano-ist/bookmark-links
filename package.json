@@ -1,0 +1,24 @@
+{
+  "name": "bookmark-links",
+  "version": "1.0.0",
+  "description": "Generate bookmark links from exported bookmark html.",
+  "author": "Soraki Hirano",
+  "packageManager": "pnpm@8.10.5",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "fmt": "prettier --check './src/**/*.{js,ts}'",
+    "fmt:fix": "prettier --write './src/**/*.{js,ts}'"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "jsdom": "^22.1.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.9.3",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

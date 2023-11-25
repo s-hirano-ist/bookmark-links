@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+dist
+
+# default file for input of bookmark links
+bookmarks.html
+
+# default path for output of bookmark links
+bookmarks
