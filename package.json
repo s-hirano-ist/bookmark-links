@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "commander": "^11.1.0",
-    "jsdom": "^22.1.0"
+    "jsdom": "^23.0.0"
   },
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
