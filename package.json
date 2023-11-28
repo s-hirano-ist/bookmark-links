@@ -2,7 +2,7 @@
   "name": "bookmark-links",
   "version": "1.0.0",
   "description": "Generate bookmark links from exported bookmark html.",
-  "author": "Soraki Hirano",
+  "author": "s-hirano-ist",
   "packageManager": "pnpm@8.11.0",
   "scripts": {
     "start": "ts-node ./src/index.ts",
