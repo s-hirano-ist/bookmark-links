@@ -1,6 +1,6 @@
 {
   "name": "bookmark-links",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Generate bookmark links from exported bookmark html.",
   "author": "s-hirano-ist <s-hirano-ist@outlook.com> (https://s-hirano.com)",
   "license": "MIT",
