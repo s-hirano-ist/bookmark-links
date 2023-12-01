@@ -1,8 +1,19 @@
 {
   "name": "bookmark-links",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Generate bookmark links from exported bookmark html.",
-  "author": "s-hirano-ist",
+  "author": "s-hirano-ist <s-hirano-ist@outlook.com> (https://s-hirano.com)",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-hirano-ist/bookmark-links.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/s-hirano-ist/bookmark-links/issues"
+  },
+  "homepage": "https://github.com/s-hirano-ist/bookmark-links#readme",
   "packageManager": "pnpm@8.11.0",
   "scripts": {
     "start": "ts-node ./src/index.ts",
