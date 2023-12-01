@@ -17,7 +17,7 @@ function initProgram() {
   }>();
 }
 
-(async () => {
+export async function generate() {
   const options = initProgram();
   console.log("Converting html bookmark links to .url format files");
 
@@ -43,4 +43,4 @@ function initProgram() {
     if (!href) console.error(`DOM error on ${title}`);
     await generateUrlFile(outputPath, `${title}.url`, href ?? "");
   }
-})();
+}

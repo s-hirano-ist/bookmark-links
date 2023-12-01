@@ -1,23 +1,35 @@
 {
-  "name": "bookmark-links",
-  "version": "0.1.0",
+  "name": "@s-hirano-ist/bookmark-links",
+  "version": "1.0.0",
   "description": "Generate bookmark links from exported bookmark html.",
   "author": "s-hirano-ist <s-hirano-ist@outlook.com> (https://s-hirano.com)",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/s-hirano-ist/bookmark-links.git"
   },
-  "keywords": [],
+  "keywords": [
+    "bookmark",
+    "brave",
+    "chrome",
+    "links",
+    "export",
+    "html"
+  ],
   "bugs": {
     "url": "https://github.com/s-hirano-ist/bookmark-links/issues"
   },
   "homepage": "https://github.com/s-hirano-ist/bookmark-links#readme",
   "packageManager": "pnpm@8.11.0",
   "scripts": {
-    "start": "ts-node ./src/index.ts",
-    "build": "tsc",
+    "start": "ts-node ./src/test.ts",
+    "start:rm": "rm -rf ./bookmarks && ts-node ./src/test.ts",
+    "clean": "rm -rf ./dist",
+    "build": "npm -s run clean && tsc",
+    "prepare": "npm run build",
     "fmt": "prettier --check './src/**/*.{js,ts}'",
     "fmt:fix": "prettier --write './src/**/*.{js,ts}'"
   },
