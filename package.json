@@ -1,6 +1,6 @@
 {
   "name": "@s-hirano-ist/bookmark-links",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate bookmark links from exported bookmark html.",
   "author": "s-hirano-ist <s-hirano-ist@outlook.com> (https://s-hirano.com)",
   "license": "MIT",
@@ -30,8 +30,8 @@
     "clean": "rm -rf ./dist",
     "build": "npm -s run clean && tsc",
     "prepare": "npm run build",
-    "fmt": "prettier --check './src/**/*.{js,ts}'",
-    "fmt:fix": "prettier --write './src/**/*.{js,ts}'"
+    "fmt": "dprint check",
+    "fmt:fix": "dprint fmt"
   },
   "dependencies": {
     "commander": "^11.1.0",
@@ -40,7 +40,7 @@
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
     "@types/node": "^20.10.3",
-    "prettier": "^3.1.0",
+    "dprint": "^0.43.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.3.2"
   }

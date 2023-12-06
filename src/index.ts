@@ -1,8 +1,8 @@
-import { generateUrlFile, importUrlFile } from "./common/util";
-import { JSDOM } from "jsdom";
 import { program } from "commander";
-import path from "path";
 import fs from "fs";
+import { JSDOM } from "jsdom";
+import path from "path";
+import { generateUrlFile, importUrlFile } from "./common/util";
 
 function initProgram() {
   program
@@ -25,10 +25,11 @@ export async function generate() {
   const aTagList = new JSDOM(data).window.document.getElementsByTagName("A");
 
   const outputPath = path.join("./", options.output, "/");
-  if (fs.existsSync(outputPath))
+  if (fs.existsSync(outputPath)) {
     throw new Error(
       "Output directory already exists. Please delete it manually.",
     );
+  }
   await fs.promises.mkdir(outputPath);
 
   for (let i = 0; i < aTagList.length; i++) {
