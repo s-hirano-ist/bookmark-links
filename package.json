@@ -39,8 +39,8 @@
   },
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
-    "@types/node": "^20.10.4",
-    "dprint": "^0.43.2",
+    "@types/node": "^20.10.5",
+    "dprint": "^0.44.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
