@@ -17,14 +17,14 @@ devDependencies:
     specifier: ^21.1.6
     version: 21.1.6
   '@types/node':
-    specifier: ^20.11.1
-    version: 20.11.1
+    specifier: ^20.11.5
+    version: 20.11.5
   dprint:
     specifier: ^0.45.0
     version: 0.45.0
   ts-node:
     specifier: ^10.9.2
-    version: 10.9.2(@types/node@20.11.1)(typescript@5.3.3)
+    version: 10.9.2(@types/node@20.11.5)(typescript@5.3.3)
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -137,13 +137,13 @@ packages:
   /@types/jsdom@21.1.6:
     resolution: {integrity: sha512-/7kkMsC+/kMs7gAYmmBR9P0vGTnOoLhQhyhQJSlXGI5bzTHp6xdo0TtKWQAsz6pmSAeVqKSbqeyP6hytqr9FDw==}
     dependencies:
-      '@types/node': 20.11.1
+      '@types/node': 20.11.5
       '@types/tough-cookie': 4.0.5
       parse5: 7.1.2
     dev: true
 
-  /@types/node@20.11.1:
-    resolution: {integrity: sha512-DsXojJUES2M+FE8CpptJTKpg+r54moV9ZEncPstni1WHFmTcCzeFLnMFfyhCVS8XNOy/OQG+8lVxRLRrVHmV5A==}
+  /@types/node@20.11.5:
+    resolution: {integrity: sha512-g557vgQjUUfN76MZAN/dt1z3dzcUsimuysco0KeluHgrPdJXkP/XdAURgyO2W9fZWHRtRBiVKzKn8vyOAwlG+w==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -444,7 +444,7 @@ packages:
       punycode: 2.3.1
     dev: false
 
-  /ts-node@10.9.2(@types/node@20.11.1)(typescript@5.3.3):
+  /ts-node@10.9.2(@types/node@20.11.5)(typescript@5.3.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -463,7 +463,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.11.1
+      '@types/node': 20.11.5
       acorn: 8.11.3
       acorn-walk: 8.3.1
       arg: 4.1.3
