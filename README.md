@@ -59,6 +59,10 @@ pnpm ts-node sample.ts --help
 ## Publish
 
 ```bash
+npm adduser
+```
+
+```bash
 npm version <major|minor|patch>
 ```
 
