@@ -55,3 +55,13 @@ For more infomation, run the following command.
 ```bash
 pnpm ts-node sample.ts --help
 ```
+
+## Publish
+
+```bash
+npm version <major|minor|patch>
+```
+
+```bash
+npm publish
+```
