@@ -21,9 +21,6 @@ export async function generate() {
   const options = initProgram();
   console.log("Converting html bookmark links to .url format files");
 
-  const data = await importUrlFile(options.input);
-  const aTagList = new JSDOM(data).window.document.getElementsByTagName("A");
-
   const outputPath = path.join("./", options.output, "/");
   if (fs.existsSync(outputPath)) {
     throw new Error(
@@ -32,11 +29,14 @@ export async function generate() {
   }
   await fs.promises.mkdir(outputPath);
 
+  const data = new JSDOM(await importUrlFile(options.input));
+  const aTagList = data.window.document.getElementsByTagName("A");
+
   for (let i = 0; i < aTagList.length; i++) {
     let title = aTagList.item(i)?.textContent ?? "";
 
     // replace specific characters with "_"
-    ["\\", "/", ":", "*", "?", "<", ">", "|", " ", "　"].map(
+    ["\\", "/", ":", "*", "?", "<", ">", "|", " ", "　", "\"", "'", "`"].map(
       mark => (title = title.replaceAll(mark, "_")),
     );
 

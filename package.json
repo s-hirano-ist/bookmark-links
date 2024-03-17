@@ -26,8 +26,8 @@
   "packageManager": "pnpm@8.14.3",
   "scripts": {
     "start": "ts-node ./src/test.ts",
-    "start:rm": "rm -rf ./bookmarks && ts-node ./src/test.ts",
-    "clean": "rm -rf ./dist",
+    "start:rm": "rimraf ./bookmarks && ts-node ./src/test.ts",
+    "clean": "rimraf ./dist",
     "build": "npm -s run clean && tsc",
     "prepare": "npm run build",
     "fmt": "dprint check",
@@ -41,6 +41,7 @@
     "@types/jsdom": "^21.1.6",
     "@types/node": "^20.11.5",
     "dprint": "^0.45.0",
+    "rimraf": "^5.0.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
