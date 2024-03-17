@@ -34,7 +34,7 @@
     "fmt:fix": "dprint fmt"
   },
   "dependencies": {
-    "commander": "^11.1.0",
+    "commander": "^12.0.0",
     "jsdom": "^24.0.0"
   },
   "devDependencies": {
