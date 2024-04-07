@@ -17,20 +17,20 @@ devDependencies:
     specifier: ^21.1.6
     version: 21.1.6
   '@types/node':
-    specifier: ^20.12.2
-    version: 20.12.2
+    specifier: ^20.12.5
+    version: 20.12.5
   dprint:
-    specifier: ^0.45.0
-    version: 0.45.0
+    specifier: ^0.45.1
+    version: 0.45.1
   rimraf:
     specifier: ^5.0.5
     version: 5.0.5
   ts-node:
     specifier: ^10.9.2
-    version: 10.9.2(@types/node@20.12.2)(typescript@5.4.3)
+    version: 10.9.2(@types/node@20.12.5)(typescript@5.4.4)
   typescript:
-    specifier: ^5.4.3
-    version: 5.4.3
+    specifier: ^5.4.4
+    version: 5.4.4
 
 packages:
 
@@ -41,56 +41,56 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@dprint/darwin-arm64@0.45.0:
-    resolution: {integrity: sha512-pkSSmixIKXr5t32bhXIUbpIBm8F8uhsJcUUvfkFNsRbQvNwRp71ribZpE8dKl0ZFOlAFeWD6WLE8smp/QtiGUA==}
+  /@dprint/darwin-arm64@0.45.1:
+    resolution: {integrity: sha512-pH0/uKLJ5SJPoHhOwLWFMhCmL0BY3FzWQbull8OGMK/FRkIPgOl2adZSovtUZpUMGWyDOzIWH1fW9X2DuMhnEg==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@dprint/darwin-x64@0.45.0:
-    resolution: {integrity: sha512-PHcXSrRO53KH9N+YPbPtr40NnDo2t7hO7KLMfl2ktRNLjrmKg6F8XDDsr2C7Z11k3jyEEU2Jq8hhpaKHwNapmQ==}
+  /@dprint/darwin-x64@0.45.1:
+    resolution: {integrity: sha512-YUj421LmBLDlxpIER3pORKfQmpmXD50n5mClHjpZrnl17WTiHtQ+jHvDJdJoxH2eS66W0mQyxLoGo5SfFfiM7A==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@dprint/linux-arm64-glibc@0.45.0:
-    resolution: {integrity: sha512-NgIpvZHpiQaY4DxSygxknxBtvKE2KLK9dEbUNKNE098yTHhGq7ouPsoM7RtsO34RHJ3tEZLLJEuBHn20XP8LMg==}
+  /@dprint/linux-arm64-glibc@0.45.1:
+    resolution: {integrity: sha512-lJ7s/pOQWRJ0mstjZQnVyX2/3QRXZ9cpFHJDZ7e81Y8QSn/iqxTrnK0DPgxUrDG8hYKQmWQdQLU4sP5DKBz0Jg==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@dprint/linux-arm64-musl@0.45.0:
-    resolution: {integrity: sha512-Y8p+FC0RNyKCGQjy99Uh1LSPrlQtUTvo4brdvU1THF3pyWu6Bg1p6NiP5a6SjE/6t9CMKZJz39zPreQtnDkSDA==}
+  /@dprint/linux-arm64-musl@0.45.1:
+    resolution: {integrity: sha512-un2awe1L1sAJLsCPSEUrE0/cgupdzbYFoyBOutyU1zHR9KQn47AtIDw+chvuinU4xleHDuEGyXGuJ6NE+Ky6vw==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@dprint/linux-x64-glibc@0.45.0:
-    resolution: {integrity: sha512-u03NCZIpJhE5gIl9Q7jNL4sOPBFd/8BLVBiuLoLtbiTZQ+NNudHKgGNATJBU67q1MKpqKnt8/gQm139cJkHhrw==}
+  /@dprint/linux-x64-glibc@0.45.1:
+    resolution: {integrity: sha512-5Civht90S/g8zlyYB7n4oH78p+sLbNqeFCFuImJRK7uRxZwCRya7lji6RwlB6DQ7qngVqovTHj9RLOYfZzfVlg==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@dprint/linux-x64-musl@0.45.0:
-    resolution: {integrity: sha512-DQN8LPtxismkeU1X+sQywa80kWwCBcpQh9fXoJcvTEHrgzHBqbG2SEsUZpM12oKEua1KE/iBh+vgZ+4I3TdI2A==}
+  /@dprint/linux-x64-musl@0.45.1:
+    resolution: {integrity: sha512-p2/gjnHDd8GRCvtey5HZO4o/He6pSmY/zpcCuIXprFW9P0vNlEj3DFhz4FPpOKXM+csrsVWWs2E0T/xr5QZtVg==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@dprint/win32-x64@0.45.0:
-    resolution: {integrity: sha512-aZHIWG2jIlEp4BER1QG6YYqPd6TxT9S77AeUkWJixNiMEo+33mPRVCBcugRWI/WJWveX8yWFVXkToORtnSFeEA==}
+  /@dprint/win32-x64@0.45.1:
+    resolution: {integrity: sha512-2l78XM7KsW46P2Yv6uPB3fE+y92EsBlrCxi+RVQ0pbznPFdMdkLyGgaCuh683zdld14jHlaADpIQ7YchGAEMAg==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -151,13 +151,13 @@ packages:
   /@types/jsdom@21.1.6:
     resolution: {integrity: sha512-/7kkMsC+/kMs7gAYmmBR9P0vGTnOoLhQhyhQJSlXGI5bzTHp6xdo0TtKWQAsz6pmSAeVqKSbqeyP6hytqr9FDw==}
     dependencies:
-      '@types/node': 20.12.2
+      '@types/node': 20.12.5
       '@types/tough-cookie': 4.0.5
       parse5: 7.1.2
     dev: true
 
-  /@types/node@20.12.2:
-    resolution: {integrity: sha512-zQ0NYO87hyN6Xrclcqp7f8ZbXNbRfoGWNcMvHTPQp9UUrwI0mI7XBz+cu7/W6/VClYo2g63B0cjull/srU7LgQ==}
+  /@types/node@20.12.5:
+    resolution: {integrity: sha512-BD+BjQ9LS/D8ST9p5uqBxghlN+S42iuNxjsUGjeZobe/ciXzk2qb1B6IXc6AnRLS+yFJRpN2IPEHMzwspfDJNw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -303,18 +303,18 @@ packages:
     engines: {node: '>=0.3.1'}
     dev: true
 
-  /dprint@0.45.0:
-    resolution: {integrity: sha512-3444h7V47XoA16qgIWjw3CV/Eo/rQbT/XTGlbJ/6vJ+apQyuo0+M3Ai0GS3wu7X9HBUDcA0zIHA3mOxWNz6toA==}
+  /dprint@0.45.1:
+    resolution: {integrity: sha512-OYefcDgxd6jSdig/Cfkw1vdvyiOIRruCPnqGBbXpc95buDt9kvwL+Lic1OHc+SaQSsQub0BUZMd5+TNgy8Sh3A==}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      '@dprint/darwin-arm64': 0.45.0
-      '@dprint/darwin-x64': 0.45.0
-      '@dprint/linux-arm64-glibc': 0.45.0
-      '@dprint/linux-arm64-musl': 0.45.0
-      '@dprint/linux-x64-glibc': 0.45.0
-      '@dprint/linux-x64-musl': 0.45.0
-      '@dprint/win32-x64': 0.45.0
+      '@dprint/darwin-arm64': 0.45.1
+      '@dprint/darwin-x64': 0.45.1
+      '@dprint/linux-arm64-glibc': 0.45.1
+      '@dprint/linux-arm64-musl': 0.45.1
+      '@dprint/linux-x64-glibc': 0.45.1
+      '@dprint/linux-x64-musl': 0.45.1
+      '@dprint/win32-x64': 0.45.1
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -623,7 +623,7 @@ packages:
       punycode: 2.3.1
     dev: false
 
-  /ts-node@10.9.2(@types/node@20.12.2)(typescript@5.4.3):
+  /ts-node@10.9.2(@types/node@20.12.5)(typescript@5.4.4):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -642,20 +642,20 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.12.2
+      '@types/node': 20.12.5
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.4.3
+      typescript: 5.4.4
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
 
-  /typescript@5.4.3:
-    resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
+  /typescript@5.4.4:
+    resolution: {integrity: sha512-dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
