@@ -23,7 +23,7 @@
     "url": "https://github.com/s-hirano-ist/bookmark-links/issues"
   },
   "homepage": "https://github.com/s-hirano-ist/bookmark-links#readme",
-  "packageManager": "pnpm@8.15.7",
+  "packageManager": "pnpm@8.15.8",
   "scripts": {
     "start": "ts-node ./src/test.ts",
     "start:rm": "rimraf ./bookmarks && ts-node ./src/test.ts",
