@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
-    "@types/node": "^20.12.7",
+    "@types/node": "^20.12.8",
     "dprint": "^0.45.1",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.2",
